@@ -39,24 +39,24 @@ Before diving into the challenge, we need to clone the starter version of the ap
 
 In this step, the app crashes automatically when launching.
 
-- [ ] Check `Logcat` for crash-related errors - are there any blue hyperlinks pointing to specific lines of code?
-- [ ] Make necessary changes in the code to allow the app to run
+- [X] Check `Logcat` for crash-related errors - are there any blue hyperlinks pointing to specific lines of code?
+- [X] Make necessary changes in the code to allow the app to run
 
 #### Step 1: Something Is Preventing Clicks
 
 The app should now launch successfully, but there is something preventing interaction with the Blue button. Usually there is a [Ripple Animation](https://guides.codepath.com/android/ripple-animation) that occurs when the button is clicked, but nothing seems to be happening.
 
-- [ ] Open `activity_main.xml`
-- [ ] Find any View that might be obstructing our Button from being clicked and **modify/delete** it
-- [ ] Re-run the app
+- [X] Open `activity_main.xml`
+- [X] Find any View that might be obstructing our Button from being clicked and **modify/delete** it
+- [X] Re-run the app
 
 #### Step 2: A Wild Blue Button Appeared!
 
 The blue button decided to celebrate Halloween early this year with a costume of the red button. It is telling us to check our layout file. Let's try to change the `visibility` of the blue button.
 
-- [ ] Open `activity_main.xml`
-- [ ] Change the visibility of the Button with id `blue_button` to `gone`
-- [ ] Re-run the app
+- [X] Open `activity_main.xml`
+- [X] Change the visibility of the Button with id `blue_button` to `gone`
+- [X] Re-run the app
 
 #### Step 3: That Is One Tiny Yellow Button
 
@@ -64,17 +64,17 @@ There is now a tiny yellow button shown. It's a bit small to be interacted with,
 
 💡 PRO TIP: Press and hold the _tiny_ button if you are feeling lucky today
 
-- [ ] Open `activity_main.xml`
-- [ ] Find the Button with id `tiny_yellow_button`
-- [ ] Change its size to allow easier interactivity
-- [ ] Re-run the app
-- [ ] Press and hold the Button to trigger its `longClickListener()`
+- [X] Open `activity_main.xml`
+- [X] Find the Button with id `tiny_yellow_button`
+- [X] Change its size to allow easier interactivity
+- [X] Re-run the app
+- [X] Press and hold the Button to trigger its `longClickListener()`
 
 #### Step 4: The Red Button
 
 Is this the **real** red button? Has our journey finally come to an end? Only one way to find out.
 
-- [ ] Tap the red button
+- [X] Tap the red button
 
 🎉 Congratulations, you've successfully completed the challenge! 🎉
 You have shown that you are more than capable as an Engineer, and the company will be extending an offer. Now go change the world! 🚀
